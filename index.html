@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="buttonList">
+        <button class="btn">получить данные</button>
+        <button class="btnDelete">очистить данные</button>
+    </div>
+    <div class="inputBlock">
+        <input type="text" placeholder="фильтрация">
+    </div>
+    <div class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p>Ошибка при получении данных</p>
+        </div>
+    </div>
+    <table>
+        <thead>
+        <tr>
+            <th>User</th>
+            <th>Name</th>
+            <th>Phone</th>
+            <th>Email</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td class="dataUser"></td>
+            <td class="dataName"></td>
+            <td class="dataPhone"></td>
+            <td class="dataEmail"></td>
+        </tr>
+        </tbody>
+    </table>
+
+</body>
+<script src="main.js"></script>
+</html>
